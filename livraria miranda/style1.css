@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #1e1e2f, #3a3a5a);
+    color: #fff;
+  }
+  
+
+  header {
+    background: #14142b;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  .search input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+  }
+  
+
+  .livros {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    justify-items: center;
+  }
+  
+  .livros img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .livros img:hover {
+    transform: scale(1.05);
+  }
+  
+
+  footer {
+    background: #0e0e1c;
+    padding: 2rem;
+    color: #ccc;
+    text-align: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+  
+  .footer-links div {
+    min-width: 150px;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  .footer-links a {
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    margin-bottom: 0.25rem;
+  }
+  
+  .footer-links a:hover {
+    color: #fff;
+  }
+  
+  .newsletter input {
+    padding: 0.5rem;
+    border: none;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .newsletter button {
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    border: none;
+    background: #5a189a;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
